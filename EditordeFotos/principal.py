@@ -25,7 +25,7 @@ def salvar_configuracoes():
     with open('D:/pythonProject/EditordeFotos/arquivostxt/fonteusada.txt', 'w') as fonteusada:
         fonteusada.write(fonte)
     s = tkinter.Tk()
-    t = tkinter.Label(s, text='Configurações salvas', bg='green', fg='white')
+    t = tkinter.Label(s, text='As configurações foram salvas', bg='green', fg='white')
     t.pack()
     s.mainloop()
 

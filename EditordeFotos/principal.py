@@ -18,7 +18,7 @@ with open('D:/pythonProject/EditordeFotos/arquivostxt/pastaparasalvar.txt', 'r')
 color = '#a3bdf0'
 pergunta_mostrar_foto = False
 
-def salvar_configuracoes():
+def salvar_configuracoes(): // ffaf
     global dir_saida, fonte
     with open('D:/pythonProject/EditordeFotos/arquivostxt/pastaparasalvar.txt', 'w') as pastaparasalvar:
         pastaparasalvar.write(dir_saida)
